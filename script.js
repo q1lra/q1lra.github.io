@@ -1,14 +1,14 @@
 const projects = [
     {
         name: "typer",
-        description: "A keyboard emulator to bypass copy-paste restrictions in websites and apps.",
+        description: "A keyboard emulator to bypass copy-paste restrictions in websites and apps",
         language: "AutoHotkey",
         langColor: "#657b83",
         url: "https://github.com/q1lra/typer"
     },
     {
         name: "reaction-trainer",
-        description: "An application to measure and track reaction speed by clicking a randomly moving target.",
+        description: "An application to measure and track reaction speed by clicking a randomly moving target",
         language: "C#",
         langColor: "#178600",
         url: "https://github.com/q1lra/reaction-trainer"
