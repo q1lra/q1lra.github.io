@@ -1,6 +1,7 @@
 :root {
     --bg-canvas: #0d1117;
     --border-default: #30363d;
+    --border-hover: #444c56;
     --text-primary: #e6edf3;
     --text-secondary: #9198a1;
     --accent-blue: #2f81f7;
@@ -34,7 +35,7 @@ body {
 
 .repo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 16px;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .repo-card:hover {
-    border-color: #8b949e;
+    border-color: var(--border-hover);
 }
 
 .repo-header {
@@ -113,12 +114,12 @@ body {
 
 @media (max-width: 992px) {
     .repo-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 }
 
 @media (max-width: 576px) {
     .repo-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 }
