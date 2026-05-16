@@ -30,7 +30,6 @@ body {
     gap: 32px;
 }
 
-/* Sidebar Styling */
 .sidebar {
     width: 296px;
     flex-shrink: 0;
@@ -92,7 +91,6 @@ body {
     text-decoration: underline;
 }
 
-/* Repository Main Layout */
 .main-content {
     flex-grow: 1;
 }
@@ -109,7 +107,6 @@ body {
     gap: 16px;
 }
 
-/* Repository Pinned Card Items */
 .repo-card {
     background-color: var(--bg-canvas);
     border: 1px solid var(--border-default);
@@ -183,7 +180,6 @@ body {
     margin-right: 6px;
 }
 
-/* Responsiveness rule for phone sizes */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;

@@ -1,4 +1,3 @@
-// Database array containing your pinned repository information
 const projects = [
     {
         name: "typer",
@@ -16,14 +15,13 @@ const projects = [
     },
     {
         name: "matrix-rain",
-        description: "The Matrix digital rain simulation.",
+        description: "The Matrix digital rain simulation",
         language: "Python",
         langColor: "#3572A5",
         url: "https://github.com/q1lra/matrix-rain"
     }
 ];
 
-// Function to generate the cards dynamically into the DOM layout
 function renderProjects() {
     const grid = document.getElementById('repo-grid');
     if (!grid) return;
@@ -48,5 +46,4 @@ function renderProjects() {
     `).join('');
 }
 
-// Fire rendering process when DOM loads completely
 document.addEventListener('DOMContentLoaded', renderProjects);
