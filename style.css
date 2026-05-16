@@ -26,7 +26,7 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    display: block;
+    width: 100%;
 }
 
 .header-meta {
@@ -36,11 +36,17 @@ body {
     margin-bottom: 24px;
     color: var(--text-secondary);
     font-size: 14px;
+    width: 100%;
+}
+
+.header-meta svg {
+    flex-shrink: 0;
 }
 
 .header-meta a {
     color: var(--text-secondary);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .header-meta a:hover {
