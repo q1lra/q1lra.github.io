@@ -1,10 +1,10 @@
 const projects = [
     {
-        name: "chat",
-        description: "A zero-trust chat cli",
+        name: "sec-chat",
+        description: "An encrypted communication tool",
         language: "Go",
         langColor: "#00ADD8",
-        url: "https://github.com/q1lra/chat"
+        url: "https://github.com/q1lra/sec-chat"
     },
     {
         name: "typer",
